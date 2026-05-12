@@ -34,4 +34,4 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-'''
+
