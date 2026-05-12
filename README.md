@@ -34,4 +34,21 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+```
 
+## Input data format
+
+The app expects a **tab-separated file** named `length_counts.tsv` in the working directory with exactly two columns and no header
+
+## Usage
+
+```bash
+streamlit run app.py
+```
+
+The app opens in your browser at `http://localhost:8501`.
+
+Use the **sidebar** to:
+1. Choose a binning mode (Linear / Logarithmic / Focused 5-1000)
+2. Adjust the bin width or bin count for that mode
+3. Toggle the logarithmic Y axis
